@@ -129,11 +129,16 @@ python validate.py [ImageNetPath] --model ViTAE_basic_Tiny --eval_checkpoint [Ch
 
 ### Training
 
-Take ViTAE_basic_Tiny as an example, to train the ViTAE model on ImageNet with 4 GPU and 512 batch size, run
+Take ViTAE_basic_Tiny as an example, to train the ViTAE model on ImageNet with 4 GPU and 128 batch size for each GPU (512 batch size in total), run
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node=4 main.py [ImageNetPath] --model ViTAE_basic_Tiny -b 128 --lr 1e-3 --weight-decay .03 --img-size 224 --amp
 ```
+
+Our code support multi-node distributed training, and the training scrips of ViTAEv2 variants are given below. 
+
+> [ViTAEv2_S](vitaev2/training_scripts/ViTAEv2_S.sh), [ViTAEv2_48M](vitaev2/training_scripts/ViTAEv2_48M.sh), [ViTAEv2_B](vitaev2/training_scripts/ViTAEv2_B.sh)
+
 
 The trained model file will be saved under the ```output``` folder
 
