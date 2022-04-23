@@ -1,0 +1,2 @@
+python -m torch.distributed.launch --nnodes 4 --node_rank {NODEID} --master_addr {MASTER_ADDR} --master_port 25901 --nproc_per_node 8 \
+    ./main.py {data-path} --model ViTAEv2_B -b 32 --lr 5e-4 --weight-decay .065 --img-size 224 --drop-path 0.4 --workers 8 --warmup-epochs 10 --drop 0.1 --clip-grad 5.0

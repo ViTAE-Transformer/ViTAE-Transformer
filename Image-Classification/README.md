@@ -148,9 +148,9 @@ The trained model file will be saved under the ```output``` folder
 | ViTAE-B | 224x224 | 83.8 | \ | 89.4 | [Weights](https://drive.google.com/drive/folders/1KTu8dHoPVscVDPS_9qiA8UfCMb56dcsV?usp=sharing) |
 | ViTAE-L | 224x224 | 86.0 | \ | 90.3 | Coming Soon |
 | ViTAE-H | 224x224 | 86.9 | \ | 90.6 | Coming Soon |
-| ViTAEv2-S | 224x224 | 82.6 | 96.2 | 87.6 | [Weights]()&[Log](vitaev2/output/ViTAEv2_S.txt) |
-| ViTAEv2-48M | 224x224 | 83.8 | 96.6 | 88.4 | [Weights]()&[Log](vitaev2/output/ViTAEv2_48M.txt) |
-| ViTAEv2-B | 224x224 | 84.6 | 96.9 | 88.7 | [Weights]()&[Log](vitaev2/output/ViTAEv2_B.txt) |
+| ViTAEv2-S | 224x224 | 82.6 | 96.2 | 87.6 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgRgpIv58qMLokxP6?e=9kQgCo)&[Log](vitaev2/output/ViTAEv2_S.txt) |
+| ViTAEv2-48M | 224x224 | 83.8 | 96.6 | 88.4 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgRnQjbNipq0_OLKM?e=75TzxI)&[Log](vitaev2/output/ViTAEv2_48M.txt) |
+| ViTAEv2-B | 224x224 | 84.6 | 96.9 | 88.7 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgRo8kRsNmnYikXw4?e=Fd3cki)&[Log](vitaev2/output/ViTAEv2_B.txt) |
 
 ## Models with ImageNet-22K pretraining
 | name | resolution | acc@1 | acc@5 | acc@RealTop-1 | Pretrained |
@@ -158,7 +158,7 @@ The trained model file will be saved under the ```output``` folder
 | ViTAE-B | 224x224 | 84.8 | \ | 89.9 | [Weights](https://drive.google.com/drive/folders/1KSXdMIQA1fVusfYf3XI_BPAberbmYiNv?usp=sharing) |
 | ViTAE-L | 224x224 | 87.5 | \ | 90.8 | Coming Soon |
 | ViTAE-H | 224x224 | 88.0 | \ | 90.7 | Coming Soon |
-| ViTAEv2-B | 224x224 | 86.1 | 97.9 | 89.9 | [Weights]() |
+| ViTAEv2-B | 224x224 | 86.1 | 97.9 | 89.9 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgRuwkrO4cjvD5ydH?e=WfK7Az) |
 
 ## The performance with few-shot learning
 
