@@ -117,7 +117,6 @@ class ViTAEv2(nn.Module):
                 frozen_stages=-1,
                 use_checkpoint=False,
                 combine=False,
-                old=True,
                 outNorm=False):
         super().__init__()
 
@@ -156,7 +155,7 @@ class ViTAEv2(nn.Module):
                 self.kernel_size[i], self.RC_heads[i], self.NC_heads[i], self.dilaions[i], self.RC_op[i],
                 self.RC_tokens_type[i], self.NC_tokens_type[i], self.RC_group[i], self.NC_group[i], self.NC_depth[i], dpr[startDpr:self.NC_depth[i]+startDpr],
                 mlp_ratio=self.mlp_ratio[i], qkv_bias=self.qkv_bias[i], qk_scale=self.qk_scale[i], drop=self.drop[i], attn_drop=self.attn_drop[i],
-                norm_layer=self.norm_layer[i], window_size=window_size, combine=combine, old=old)
+                norm_layer=self.norm_layer[i], window_size=window_size, combine=combine)
             )
             img_size = img_size // self.downsample_ratios[i]
             in_chans = self.tokens_dims[i]
