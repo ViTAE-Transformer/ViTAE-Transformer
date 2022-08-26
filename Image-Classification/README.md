@@ -72,10 +72,10 @@ conda activate vitae
 conda install pytorch==1.8.1 torchvision==0.9.1 cudatoolkit=10.2 -c pytorch -c conda-forge
 ```
 
-- Install `timm==0.3.4`:
+- Install `timm==0.4.12`:
 
 ```bash
-pip install timm==0.3.4
+pip install timm==0.4.12
 ```
 
 - Install `Apex`:
