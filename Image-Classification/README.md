@@ -1,5 +1,7 @@
 <h1 align="left">ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias</h1> 
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vitaev2-vision-transformer-advanced-by/image-classification-on-imagenet-real)](https://paperswithcode.com/sota/image-classification-on-imagenet-real?p=vitaev2-vision-transformer-advanced-by)
+
 <p align="center">
   <a href="#Updates">Updates</a> |
   <a href="#introduction">Introduction</a> |
