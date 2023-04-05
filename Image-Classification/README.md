@@ -153,8 +153,8 @@ The trained model file will be saved under the ```output``` folder
 | ViTAE-6M | 224x224 | 77.9 | 94.1 | 84.9 | [Weights&Log](https://drive.google.com/drive/folders/1f1yxh9GIhqHLzYw9Bv1lJbeR4lvVn4CC?usp=sharing) |
 | ViTAE-S | 224x224 | 82.0 | 95.9 | 87.0 | [Weights&Log](https://drive.google.com/drive/folders/1lFL_FCd3xeSNdDavmRqRY1IyboLBG1wH?usp=sharing) |
 | ViTAE-B | 224x224 | 83.8 | \ | 89.4 | [Weights](https://drive.google.com/drive/folders/1KTu8dHoPVscVDPS_9qiA8UfCMb56dcsV?usp=sharing) |
-| ViTAE-L | 224x224 | 86.0 | \ | 90.3 | Coming Soon |
-| ViTAE-H | 224x224 | 86.9 | \ | 90.6 | Coming Soon |
+| ViTAE-L | 224x224 | 86.0 | \ | 90.3 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgcgExiB2s8TrE7uqtQ?e=OrfOop) |
+| ViTAE-H | 224x224 | 86.9 | \ | 90.6 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgcgFumfz5dcsFPLenA?e=QOMLmL) |
 | ViTAEv2-S | 224x224 | 82.6 | 96.2 | 87.6 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgRgpIv58qMLokxP6?e=9kQgCo)&[Log](vitaev2/output/ViTAEv2_S.txt) |
 | ViTAEv2-48M | 224x224 | 83.8 | 96.6 | 88.4 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgRnQjbNipq0_OLKM?e=75TzxI)&[Log](vitaev2/output/ViTAEv2_48M.txt) |
 | ViTAEv2-B | 224x224 | 84.6 | 96.9 | 88.7 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgRo8kRsNmnYikXw4?e=Fd3cki)&[Log](vitaev2/output/ViTAEv2_B.txt) |
