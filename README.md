@@ -1,9 +1,10 @@
 <h1 align="left">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href="https://arxiv.org/abs/2202.10108"><img src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a></h1> 
 
 <p align="center">
-  <a href="#Updates">Updates</a> |
+  <a href="#updates">Updates</a> |
   <a href="#introduction">Introduction</a> |
   <a href="#statement">Statement</a> |
+  <a href="#citing-vitae-and-vitaev2">Citation</a> |
 </p>
 
 ## Current applications
